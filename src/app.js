@@ -14,7 +14,9 @@ app.post('/webhook', (req, res) => {
                     })
                 }
             res.send({
-                fullfilmentText: orderdata
+               " fulfillmentText": Response
+            ,"fulfillmentMessages":[{"text":{"text":[orderdata]}}]
+                
          
             })
         })
