@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node scr/app.js",
-    "dev":"node scr/app.js"
+    "start": "node src/app.js",
+    "dev":"node src/app.js"
   },
   "author": "",
   "license": "ISC",
